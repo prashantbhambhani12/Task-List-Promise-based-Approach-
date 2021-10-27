@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s all linear;
+}
+body {
+  min-height: 50vh;
+}
+.listContainer {
+  padding: 1em;
+  background: lightgray;
+  min-height: 100px;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .listContainer {
+    max-width: 90vw;
+  }
+  .heading {
+    font-size: 0.9rem;
+  }
+  .listContainer .table .taskHead input::placeholder {
+    font-size: 0.6rem !important;
+  }
+  .listContainer .clearBtn {
+    left: 65% !important;
+    font-size: 0.75rem;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .listContainer {
+    max-width: 60vw;
+  }
+  .heading {
+    font-size: 1rem;
+  }
+  .listContainer .table .taskHead input::placeholder {
+    font-size: 0.66rem !important;
+  }
+  .listContainer .clearBtn {
+    left: 70% !important;
+    font-size: 0.75rem;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1199px) {
+  .listContainer {
+    max-width: 50vw;
+  }
+  .heading {
+    font-size: 1.2rem;
+  }
+  .listContainer .clearBtn {
+    left: 75% !important;
+    font-size: 0.81rem;
+  }
+}
+@media all and (min-width: 1200px) {
+  .listContainer {
+    max-width: 50vw;
+  }
+  .heading {
+    font-size: 1.5rem;
+  }
+  .listContainer .clearBtn {
+    left: 80% !important;
+    font-size: 0.9rem;
+  }
+}
+.listContainer .table > :not(caption) > * > * {
+  padding: 0 !important;
+}
+.listContainer .table .taskHead,
+.listContainer .table .taskBody {
+  margin: 2rem auto !important;
+  display: block;
+}
+.listContainer .table .taskHead .taskInput::placeholder {
+  font-size: 0.75rem;
+}
+.listContainer .table .taskBody.hide,
+.listContainer .table .taskBody tr.hide {
+  transform: skew(90deg) scale(0) !important;
+  transition: transform 0.5s linear;
+}
+.listContainer .table .taskBody > tr .taskList {
+  color: #000000;
+  font-weight: 500;
+}
+.listContainer .table .taskBody > tr:nth-child(even) .taskList {
+  background-color: #f0f0f0;
+}
+.listContainer .table .taskBody > tr:nth-child(odd) .taskList {
+  background-color: #ffffff;
+}
+.listContainer .table .taskBody tr:first-child .taskList {
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+}
+.listContainer .table .taskBody tr:last-child .taskList {
+  border-bottom-left-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+}
+.listContainer .table .taskBody .taskList.striked {
+  text-decoration: line-through;
+  color: limegreen !important;
+  font-weight: 500;
+}
+.listContainer .table .taskBody .taskList + .delBtn {
+  background-color: lightgray;
+}
+
+.listContainer .table .taskBody .taskList + .delBtn:hover {
+  color: red;
+  transition: 0.3s all;
+}

@@ -47,17 +47,17 @@ and choose one of the following installation methods:-
  
 Install with NPM
 ```NPM
-  npm i @prashantbhambhani12/tasklist-traditional
+  npm i @prashantbhambhani12/tasklist-promise-based
 ```
 
 Install with GITHUB CLI
 ```GITHUB-CLI
-  npm install @prashantbhambhani12/tasklist-traditional@1.0.0
+  npm install @prashantbhambhani12/tasklist-promise-based@1.0.0
 ```
 
 Install with GITHUB PACKAGE.JSON
 ```GITHUB package.json
-"@prashantbhambhani12/tasklist-traditional": "1.0.0"
+"@prashantbhambhani12/tasklist-promise-based": "1.0.0"
 ```
 
 View Code Files
@@ -71,15 +71,15 @@ https://github.com/prashantbhambhani12/Task-List-Traditional-Approach-
 To deploy this project LOCALLY FOLLOW FOLLOWING 2 STEPS:-
 ````
 1) INSTALL VIA NPM
- npm i @prashantbhambhani12/tasklist-traditional
+ npm i @prashantbhambhani12/tasklist-promise-based
 
-2) open path/to/directory/node_modules/tasklist-traditional
+2) open path/to/directory/node_modules/tasklist-promise-based
 and run the file in browser with live server enabled.
 ````
 OR
 
 ```
-Navigate to --> https://hostinental.com/Tradtional/
+Navigate to --> https://hostinental.com/Promises/
 ``` 
 ## Contact
  - Suggestions/Doubts:- hostinental@gmail.com

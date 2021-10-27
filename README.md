@@ -3,7 +3,7 @@
 ### Task List (Module Based Approach)
 
 # Description
-### This is task list created with vanilla javascript with Promises based structure defined in ecma standards
+#### The structure here in js folder is organized and reusable. It's just PURE VANILLA JAVASCRIPT but the approach is promise based, defined in ecma script. Moreover, I also have used mutation observer api that actually keep an eye on dom for changes. And if found one, it fires the script specified within the if block.
 
 # Structure
 
@@ -26,8 +26,6 @@ elements and do the task mentioned in the callback function when the event gets 
 
 c) function.js (This file hold the functions that can be invoked to make repeated tasks easier)
 
-I must say that the code here in js folder is clean, organized and above-all REUSABLE. It's just PURE VANILLA JAVASCRIPT but the
-approach is based on modules structure, defined in ecma script.
 ## Features
 
 - Fully Responsive

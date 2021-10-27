@@ -62,7 +62,7 @@ Install with GITHUB PACKAGE.JSON
 
 View Code Files
 ```GITHUB Repositories
-https://github.com/prashantbhambhani12/Task-List-Traditional-Approach-
+https://github.com/prashantbhambhani12/Task-List-Promise-based-Approach-
 ```
 
 

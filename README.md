@@ -1,6 +1,6 @@
 
 # Title
-### Task List (Module Based Approach)
+### Task List (Promise Based Approach)
 
 # Description
 #### The structure here in js folder is organized and reusable. It's just PURE VANILLA JAVASCRIPT but the approach is promise based, defined in ecma script. Moreover, I also have used mutation observer api that actually keep an eye on dom for changes. And if found one, it fires the script specified within the if block.

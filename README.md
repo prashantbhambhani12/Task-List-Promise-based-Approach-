@@ -3,7 +3,7 @@
 ### Task List (Module Based Approach)
 
 # Description
-### This is task list created with vanilla javascript with Prmises based structure defined in ecma standards
+### This is task list created with vanilla javascript with Promises based structure defined in ecma standards
 
 # Structure
 
